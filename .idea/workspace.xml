@@ -4,30 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc477202-e8d0-4d9a-8b8f-7bd00e686bae" name="更改" comment="重构项目名称">
+    <list default="true" id="fc477202-e8d0-4d9a-8b8f-7bd00e686bae" name="更改" comment="重构项目">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/account/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/account/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/account/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/account/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/account/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/account/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/account/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/account/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/account/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/account/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/account/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/account/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/common/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/common/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/common/LocalApiView.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/common/LocalApiView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/common/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/common/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/common/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/common/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/configs/mongodb_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/configs/mongodb_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/configs/mysql_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/configs/mysql_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/configs/redis_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/configs/redis_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/markdowns/pip 批量安装命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/markdowns/pip 批量安装命令.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/serializers/account_serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/serializers/account_serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/zytool/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/zytool/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/zytool/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/zytool/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/zytool/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/zytool/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/zytool/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/zytool/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JokerProMax_zytool/zytool/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/zytool/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zytool/common/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/common/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zytool/zytool/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/zytool/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +54,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Django 服务器.zytool.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/zhiyi/Documents/学习/GitHub/zytool",
@@ -86,7 +68,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -152,7 +134,8 @@
       <workItem from="1708579847300" duration="42000" />
       <workItem from="1717248916738" duration="4126000" />
       <workItem from="1717253704552" duration="620000" />
-      <workItem from="1717254546779" duration="28000" />
+      <workItem from="1717254546779" duration="1231000" />
+      <workItem from="1717255782892" duration="574000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <option name="closed" value="true" />
@@ -178,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717253967847</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="重构项目">
+      <option name="closed" value="true" />
+      <created>1717254635748</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717254635748</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +202,8 @@
     <MESSAGE value="新建" />
     <MESSAGE value="项目基础" />
     <MESSAGE value="重构项目名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="重构项目名称" />
+    <MESSAGE value="重构项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构项目" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
