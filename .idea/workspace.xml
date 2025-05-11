@@ -7,7 +7,8 @@
     <list default="true" id="fc477202-e8d0-4d9a-8b8f-7bd00e686bae" name="更改" comment="重构项目">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zytool/account/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/account/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zytool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zytool.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zytool/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/account/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zytool/configs/mysql_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/configs/mysql_config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,27 +54,27 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Django 服务器.zytool.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/shinyboy/Documents/Py/Github/zytool",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Django 服务器.zytool.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shinyboy/Documents/Py/Github/zytool&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/markdowns" />
@@ -138,7 +139,24 @@
       <workItem from="1717254546779" duration="1231000" />
       <workItem from="1717255782892" duration="574000" />
       <workItem from="1742105574948" duration="915000" />
-      <workItem from="1742106501174" duration="1596000" />
+      <workItem from="1742106501174" duration="2016000" />
+      <workItem from="1742108529268" duration="47000" />
+      <workItem from="1742108581515" duration="319000" />
+      <workItem from="1742108934852" duration="23000" />
+      <workItem from="1742108969929" duration="43000" />
+      <workItem from="1742109401657" duration="1904000" />
+      <workItem from="1742186753714" duration="80000" />
+      <workItem from="1742186841165" duration="972000" />
+      <workItem from="1742982461065" duration="671000" />
+      <workItem from="1743226453600" duration="3000" />
+      <workItem from="1744021043426" duration="905000" />
+      <workItem from="1745164289265" duration="252000" />
+      <workItem from="1745164631673" duration="327000" />
+      <workItem from="1745331939234" duration="29000" />
+      <workItem from="1745898585537" duration="789000" />
+      <workItem from="1746335281234" duration="959000" />
+      <workItem from="1746803388620" duration="679000" />
+      <workItem from="1746847378308" duration="2414000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <option name="closed" value="true" />
@@ -218,6 +236,10 @@
           <url>file://$PROJECT_DIR$/upload_photo/views.py</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zytool/common/Base.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
