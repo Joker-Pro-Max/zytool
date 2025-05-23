@@ -1,31 +1,18 @@
+from django.contrib.auth import authenticate
 from rest_framework import serializers
-from account.models import Account
-from rest_framework_jwt.settings import api_settings
+from rest_framework.response import Response
+
+from account.models import FrontendUser, BackendUser
+from common.function import CommonFunction
 
 
-class CreateAccountSerializer(serializers.ModelSerializer):
-    token = serializers.SerializerMethodField()
-
+class CreateFrontendUserSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Account
-        fields = ('username', 'iphone', 'password', 'token')
-
-    def get_token(self, obj):
-        jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
-        jwt_encode_handler = api_settings.JWT_ENCODE_HANDLER
-        payload = jwt_payload_handler(obj)
-        return jwt_encode_handler(payload)
+        model = FrontendUser
+        fields = ('mobile', 'nickname', "password")
 
 
-class LoginUserSerializer(serializers.ModelSerializer):
-    token = serializers.SerializerMethodField()
-
+class CreateBackendUserSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Account
-        fields = ('username', 'iphone', 'password', 'token')
-
-    def get_token(self, obj):
-        jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
-        jwt_encode_handler = api_settings.JWT_ENCODE_HANDLER
-        payload = jwt_payload_handler(obj)
-        return jwt_encode_handler(payload)
+        model = BackendUser
+        fields = ('username', "password")

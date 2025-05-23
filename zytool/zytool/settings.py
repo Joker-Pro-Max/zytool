@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     "corsheaders",
     # apps
     "account",
-    "configs"
+    "configs",
 ]
 
 MIDDLEWARE = [
@@ -151,16 +151,8 @@ CACHES = {
 }
 
 # ------------------------------------------------ REST_SETTING --------------------------------------------------------
-REST_FRAMEWORK = {
-    # 异常处理
-    'EXCEPTION_HANDLER': 'common.exceptions.custom_exception_handler',
-    # 用户登陆认证方式
-    # 'DEFAULT_AUTHENTICATION_CLASSES': (
-    #     'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
-    #     'rest_framework.authentication.SessionAuthentication',
-    #     'rest_framework.authentication.BasicAuthentication',
-    # ),
-}
+
+
 # ------------------------------------------------ 跨域 ----------------------------------------------------------------
 
 CORS_ALLOW_CREDENTIALS = True
@@ -189,5 +181,20 @@ CORS_ALLOW_HEADERS = (
     'x-requested-with',
     'Pragma',
 )
+
+# 添加自定义认证后端
+AUTHENTICATION_BACKENDS = [
+    # 保留默认后端用于Admin
+    'django.contrib.auth.backends.ModelBackend',
+
+    'account.backends.FrontendAuthBackend',
+    'account.backends.BackendAuthBackend',
+]
+# 禁用默认User模型
+# 注意：这里不需要设置AUTH_USER_MODEL，因为我们使用独立模型
+
+# 会话配置（可选）
+SESSION_COOKIE_AGE = 3600 * 24 * 7  # 7天
+SESSION_SAVE_EVERY_REQUEST = True
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
