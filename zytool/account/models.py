@@ -2,9 +2,15 @@
 from common import Base
 from django.db import models
 
+
 class Account(Base):
-    name = models.CharField(max_length=255)
+    username = models.CharField(max_length=255)
+    iphone = models.CharField(max_length=255)
+    password = models.CharField(max_length=255)
 
+    class Meta:
+        db_table = 'account_model'
 
+    def __str__(self):
+        return self.username
 
-# 姓名 手机号 id号 密码 
