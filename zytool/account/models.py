@@ -3,7 +3,7 @@ from common import Base
 from django.db import models
 
 
-class Account(Base):
+class Account(Base.BaseModel):
     username = models.CharField(max_length=255)
     iphone = models.CharField(max_length=255)
     password = models.CharField(max_length=255)
