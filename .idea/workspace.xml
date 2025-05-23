@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc477202-e8d0-4d9a-8b8f-7bd00e686bae" name="更改" comment="重构项目">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/zytool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zytool.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zytool/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/account/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zytool/configs/mysql_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/zytool/configs/mysql_config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
     &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shinyboy/Documents/Py/Github/zytool&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shinyboy/Desktop/Py/Github/zytool&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -157,6 +153,8 @@
       <workItem from="1746335281234" duration="959000" />
       <workItem from="1746803388620" duration="679000" />
       <workItem from="1746847378308" duration="2414000" />
+      <workItem from="1746942790894" duration="2000" />
+      <workItem from="1747303817441" duration="1139000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <option name="closed" value="true" />
